@@ -1,0 +1,12 @@
+#clockContainer {
+    font-family: Arial, sans-serif;
+    font-size: 48px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+#clockContainer h1 {
+    margin: 0;
+}

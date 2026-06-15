@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Changer</title>
+    <link rel="stylesheet" href="bgcolorChanger.css">
+    <script src="bgcolorChanger.js" defer></script>   
+</head>
+<body id="bodyInput">
+    
+        <h1>Background Color Changer</h1>
+        <p class ="instruction">Type a Color</p>
+
+        <div class="container">
+        <label for="colorDisplay">Enter Color name:</label>
+        <input type="text" id="colorDisplay">
+        <button onclick="colorChanger()">Click</button>
+        </div>
+       <!--paragraph contains fixed text, span contains changing color value -->
+       <!--So span tag is used Because sometimes you want to change ONLY one small part of the text.-->
+       <!--Using a span inside the paragraph gives you more control over changing only part of the text-->
+        <p id="displayMessage">Background Color has Changed to <span id = "mySpan"></span></p>
+      
+</body>
+</html>

@@ -1,0 +1,19 @@
+#clockContainer {
+    font-family: Arial, sans-serif; /* Good choice for a sans-serif font */
+    font-size: 48px; /* The font size is quite large, which is suitable for a clock display */
+    text-align: center; /* Center-align text: good for a clock display */
+    padding: 20px; /* Some padding to ensure the text doesn't touch the container edges */
+    background-color: #f1f1f1; /* A light gray background color */
+    color: #333; /* A dark gray text color for contrast */
+}
+
+/*#clockContainer h1 {
+    margin: 0; /* Removing the margin around the h1 element */
+
+#MyClockDisplay {
+    font-family: Arial;
+    color: black;
+    margin-left: 20px;
+    align-content: center;
+    margin-top: 0px;
+}
