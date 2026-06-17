@@ -1,5 +1,5 @@
 //creates references to
-const userInput = document.getElementById("nameInput");
+ const userInput = document.getElementById("nameInput");
 const btnINput = document.getElementById("greetBtn");
 const msgArea = document.getElementById("message-area");
 
