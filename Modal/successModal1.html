@@ -4,21 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Success Modal</title>
-    <link rel="stylesheet" href="successModal.css">
+    <link rel="stylesheet" href="successModal1.css">
     <!---Font Awesome link-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
 
-    <script src="successModal.js" defer></script>   
+    <script src="successModal1.js" defer></script>   
 </head>
 
   <!------------------------HTML  IS USED  TO STRUCTURE OF WEB PAGES ------------------------->
   <!-------------HTML Is for Set Up the  Click Here Button, Checkmark,  Success, Description, Close - Container------->
 <body>
+    <!--- THis click-container is for open modal to go to next page-->
     <div class = "click-container">
-        <button class = "clickBtn">Click Here</button>
+        <button id = "openModalBtn" class="clickBtn">Click Here</button>
     </div>
 
-    <div class = "modalContainer">
+       <!---- this modal-container holds information on Icon, SuccessTitle, Description,Close-Container-->
+    <div id="successModal" class = "modalContainer">
 
         <div class = "icon">
             <i class = "fa-solid fa-check"></i>
@@ -30,11 +32,11 @@
         </div>
 
        <div class = "description">
-         <p class="message">Your Invitation has been successfully sent.</p>    
+         <p id="message">Your Invitation has been successfully sent.</p>    
         </div>
 
         <div class = "close-container">
-           <button class = "closeBtn">Close</button>
+           <button id = "closeModalBtn" class="closeBtn" >Close</button>
         </div>
 
 
